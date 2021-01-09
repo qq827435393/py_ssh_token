@@ -5,6 +5,7 @@ import time
 import socket
 import threading
 import paramiko
+#o
 class Ssh(object):
     @classmethod
     def ssh_create_client(self, ip, username, passwd, port=22, timeout=5, pub_key=None, status=True, is_ip_ping=True):

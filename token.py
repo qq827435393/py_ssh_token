@@ -4,7 +4,7 @@ import os
 import time
 import socket
 import threading
-import paramiko
+#import paramiko
 
 class Ssh(object):
     @classmethod
